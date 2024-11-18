@@ -1,7 +1,7 @@
 
 
 -- CREATE DATABASE FORENSICS_331
-USE FORENSICS_331;
+USE FORENSICS_107;
 
 -- Case Data
 CREATE TABLE CASES(CaseID varchar(255) NOT NULL UNIQUE, TypeOfCase varchar(255),NameOfCase varchar(255), LeadingOfficer varchar(255), AsstOfficer varchar(255), TimeOfReport datetime NOT NULL, Loc varchar(255), statusOfCase varchar(255), PRIMARY KEY(CaseID));
